@@ -25,6 +25,8 @@ Command | Effect
 Command | Effect
 --- | ---
 `npm run start` | Starts the bot
-`npm run setupdb` | Creates a database (will overwrite existing db)
+`npm run setupdb` | Creates a database (overwrites existing db)
 `npm run count` | View the number of users on the reminder list
+
+Warning: `npm run setupdb` will reset your database. Remember to back up `data.db`.
 
